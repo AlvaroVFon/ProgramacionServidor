@@ -8,7 +8,7 @@ class Carta{
 private String $tipo;
 private int $puntos;
 
-private function __construct(String $tipo, int $puntos){
+public function __construct(String $tipo, int $puntos){
   $this->tipo = $tipo ;
   $this->puntos = $puntos;
 }
